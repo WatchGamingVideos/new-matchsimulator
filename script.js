@@ -40,6 +40,18 @@ function startMatch() {
             return;
         }
 
+        // Simulate scoring chances
+        const team1Chance = Math.random();
+        const team2Chance = Math.random();
+        if (team1Chance < 0.05) {
+            team1Goals++;
+        }
+        if (team2Chance < 0.05) {
+            team2Goals++;
+        }
+    }, updateInterval);
+}
+
 function skipToEnd() {
     if (matchInterval) {
         isSkipped = true;
