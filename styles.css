@@ -46,15 +46,14 @@ button:hover {
     background-color: #0056b3;
 }
 
-.match-result {
+.live-updates, .match-result {
     margin-top: 20px;
 }
 
-#result {
+#updates, #result {
     background-color: #e9e9e9;
     padding: 10px;
     border-radius: 5px;
-    font-weight: bold;
-    font-size: 3em; /* Huge text */
-    text-align: center;
+    height: 200px;
+    overflow-y: auto;
 }
