@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soccer Match Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Soccer Match Simulator</h1>
+        <div class="team-selection">
+            <label for="team1">Select Team 1:</label>
+            <select id="team1">
+                <option value="Team A">Team A</option>
+                <option value="Team B">Team B</option>
+                <option value="Team C">Team C</option>
+                <option value="Team D">Team D</option>
+            </select>
+            <label for="team2">Select Team 2:</label>
+            <select id="team2">
+                <option value="Team A">Team A</option>
+                <option value="Team B">Team B</option>
+                <option value="Team C">Team C</option>
+                <option value="Team D">Team D</option>
+            </select>
+            <button id="startMatch">Start Match</button>
+        </div>
+        <div class="live-updates">
+            <h2>Live Updates</h2>
+            <div id="updates"></div>
+        </div>
+        <div class="match-result">
+            <h2>Match Result</h2>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
