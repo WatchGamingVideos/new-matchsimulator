@@ -57,3 +57,8 @@ button:hover {
     height: 200px;
     overflow-y: auto;
 }
+
+.result-text {
+    font-weight: bold;
+    font-size: 1.5em;
+}
