@@ -15,9 +15,9 @@ function startMatch() {
     let team1Goals = 0;
     let team2Goals = 0;
 
-    const totalMinutes = 90;
+    const totalSeconds = 1;
 
-    for (let minute = 1; minute <= totalMinutes; minute++) {
+    for (let second = 0.01; minute <= totalMinutes; minute++) {
         // Simulate scoring chances
         const team1Chance = Math.random();
         const team2Chance = Math.random();
