@@ -13,9 +13,7 @@ function startMatch() {
         return;
     }
 
-    const updates = document.getElementById('updates');
     const result = document.getElementById('result');
-    updates.innerHTML = '';
     result.innerHTML = '';
 
     let team1Goals = 0;
